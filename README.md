@@ -155,3 +155,7 @@ git config --global user.name <nombre>
 git config --gloobal user.email <email>
 git status
 ```
+
+
+
+* Nuevas contribuciones y/o correcciones. Bienvenido sea!
