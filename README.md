@@ -120,6 +120,30 @@ git reset --hard origin/master
 ```
 
 
+##### Revert (genera un nuevo commit que deshace todos los cambios introducidos en un commit)
+
+```git
+git revert commit
+```
+
+
+##### Reset (Deshacer cambios de manera permanente) NO HACER RESET DE LA HISTORIA PUBLICA
+
+```git
+git reset HEAD
+git reset --hard HEAD~2
+git reset --hard
+```
+
+
+##### Clean
+
+```git
+git clean -n  //Dry run
+git clean -f  //Force
+```
+
+
 ##### Useful hints
 
 ```git
