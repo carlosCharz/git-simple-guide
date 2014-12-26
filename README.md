@@ -23,6 +23,7 @@ touch README.md
 git clone /ruta/al/repositorio
 git clone usuario@host://ruta/al/repositorio
 ```
+* Ej: git clone https://github.com/carlosCharz/git-simple-guide.git 
 
 
 ##### Add
@@ -150,10 +151,11 @@ git clean -f  //Force
 gitk //Para usar gui
 git config color.ui true
 git config format.pretty oneline
-git add -i  //Para hacer un adding interactivo
 git config --global user.name <nombre>
 git config --gloobal user.email <email>
 git status
+git remote -v  //Muestra URL asociada al repositorio remoto
+git remote show origin  //Inspeccionar repositorio remoto, en este caso el origin
 ```
 
 
