@@ -22,6 +22,7 @@ touch README.md
 ```git
 git clone /ruta/al/repositorio
 git clone usuario@host://ruta/al/repositorio
+git clone usuario@host://ruta/al/repositorio folder-name
 ```
 * Ej: git clone https://github.com/carlosCharz/git-simple-guide.git 
 
