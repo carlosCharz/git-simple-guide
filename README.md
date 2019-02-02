@@ -153,7 +153,7 @@ gitk //Para usar gui
 git config color.ui true
 git config format.pretty oneline
 git config --global user.name <nombre>
-git config --gloobal user.email <email>
+git config --global user.email <email>
 git status
 git remote -v  //Muestra URL asociada al repositorio remoto
 git remote show origin  //Inspeccionar repositorio remoto, en este caso el origin
